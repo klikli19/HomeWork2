@@ -16,7 +16,7 @@ public class Main {
         double BoxersWeight = boxerWeight+boxer2Weight;
         double differenceBoxers = boxer2Weight - boxerWeight;
         System.out.println("Общий вес боксеров равен " + BoxersWeight + " кг.");
-        System.out.println("Разница в весе боксеров составляет " + differenceBoxers + " кг.");
+        System.out.println("Разница в весе боксеров составляет " + differenceBoxers + " кг. ");
 
     }
 }
