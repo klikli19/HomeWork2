@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1
+        System.out.println("Задача 1");
         int myInt = 1;
         short myShort = 2;
         byte myByte = 120;
@@ -10,7 +10,7 @@ public class Main {
         char c = 'b';
         boolean b = true;
 
-        //Задание 2
+        System.out.println("Задача 2");
         double boxerWeight = 72.2;
         double boxer2Weight = 82.7;
         double BoxersWeight = boxerWeight+boxer2Weight;
@@ -18,5 +18,19 @@ public class Main {
         System.out.println("Общий вес боксеров равен " + BoxersWeight + " кг.");
         System.out.println("Разница в весе боксеров составляет " + differenceBoxers + " кг. ");
 
+        System.out.println("Задача 3");
+        int banana = 5;
+        int weightOneBanana = 80;
+        int iceCream = 2;
+        int weightOneIceCream = 100;
+        int egg = 4;
+        int weightOneEgg = 70;
+        int milk = 2;
+        int weightMilk = 105;
+        float breakfast = banana * weightOneBanana + iceCream * weightOneIceCream + egg * weightOneEgg + milk * weightMilk;
+        System.out.println("Вес спорт-завтрака равен " + breakfast + " грамм");
+        int grInKg = 1000;
+        float weightKg = breakfast / grInKg;
+        System.out.println("Вес спорт-завтрака равен " + weightKg + " килограмм.");
     }
 }
