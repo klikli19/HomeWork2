@@ -11,7 +11,7 @@ public class Main {
         boolean b = true;
 
         System.out.println("Задача 2");
-        double boxerWeight = 72.2;
+        double boxerWeight = 78.2;
         double boxer2Weight = 82.7;
         double BoxersWeight = boxerWeight+boxer2Weight;
         double differenceBoxers = boxer2Weight - boxerWeight;
