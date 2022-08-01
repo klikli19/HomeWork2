@@ -32,5 +32,17 @@ public class Main {
         int grInKg = 1000;
         float weightKg = breakfast / grInKg;
         System.out.println("Вес спорт-завтрака равен " + weightKg + " килограмм.");
+
+        System.out.println("Задача 4");
+        int kgInGr = 1000;
+        int weightSportsmanKg = 7;
+        float weightSportsmanGr = weightSportsmanKg * 1000;
+        float amountDays1 = weightSportsmanGr / 250;
+        System.out.println("При потере веса в 250 грамм, спортсмену понадобится " + amountDays1 + " дней.");
+        float amountDays2 = weightSportsmanGr / 500;
+        System.out.println("При потере веса в 500 грамм, спортсмену понадобится " + amountDays2 + " дней.");
+        float averageAmount = (amountDays1 + amountDays2) / 2;
+        System.out.println("Среднее количество дней, которое потребуется спортсмену равно " + averageAmount + ".");
+
     }
 }
