@@ -44,5 +44,19 @@ public class Main {
         float averageAmount = (amountDays1 + amountDays2) / 2;
         System.out.println("Среднее количество дней, которое потребуется спортсмену равно " + averageAmount + ".");
 
+        System.out.println("Задача 5");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        double newSalaryMasha = salaryMasha * 0.1 + salaryMasha;
+        double newSalaryDenis = salaryDenis * 0.1 + salaryDenis;
+        double newSalaryKristina = salaryKristina * 0.1 + salaryKristina;
+        double incomeMasha = newSalaryMasha * 12 - salaryMasha * 12;
+        double incomeDenis = newSalaryDenis * 12 - salaryDenis * 12;
+        double incomeKristina = newSalaryKristina * 12 - salaryKristina * 12;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + incomeMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + incomeDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + incomeKristina + " рублей.");
+
     }
 }
