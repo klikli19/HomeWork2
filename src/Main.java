@@ -13,9 +13,9 @@ public class Main {
         System.out.println("Задача 2");
         double boxerWeight = 78.2;
         double boxer2Weight = 82.7;
-        double BoxersWeight = boxerWeight+boxer2Weight;
+        double boxersWeight = boxerWeight+boxer2Weight;
         double differenceBoxers = boxer2Weight - boxerWeight;
-        System.out.println("Общий вес боксеров равен " + BoxersWeight + " кг.");
+        System.out.println("Общий вес боксеров равен " + boxersWeight + " кг.");
         System.out.println("Разница в весе боксеров составляет " + differenceBoxers + " кг. ");
 
         System.out.println("Задача 3");
@@ -48,7 +48,7 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        double newSalaryMasha = salaryMasha * 0.1 + salaryMasha;
+        double newSalaryMasha = salaryMasha * 1.1;
         double newSalaryDenis = salaryDenis * 0.1 + salaryDenis;
         double newSalaryKristina = salaryKristina * 0.1 + salaryKristina;
         double incomeMasha = newSalaryMasha * 12 - salaryMasha * 12;
